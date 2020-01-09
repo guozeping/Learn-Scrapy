@@ -25,7 +25,7 @@ def main():
     html = get_one_page(url, headers)
     print(html)
     print(html.capitalize())
-
+    print(html.center())
 
 
 if __name__ == '__main__':
