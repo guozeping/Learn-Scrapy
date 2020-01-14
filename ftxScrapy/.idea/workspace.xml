@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ced5c76e-2eaa-4ccf-8829-65540f224324" name="Default Changelist" comment="" />
+    <list default="true" id="ced5c76e-2eaa-4ccf-8829-65540f224324" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftxScrapy/spiders/custom_settins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftxScrapy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/ftxScrapy/pipelines.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="e2d41c9c-6f7b-4b16-b18a-41e8b22d930b" />
+    </checked>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,17 +39,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VhPj36lEwVRk8g4JhFTWmfJRPG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;redshift" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -32,7 +63,7 @@
       <recent name="$PROJECT_DIR$/ftxScrapy/spiders" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.pipelines">
     <configuration name="ftxspider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ftxScrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,8 +108,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ftxScrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ftxScrapy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ftxScrapy/pipelines.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ftxScrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ftxScrapy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ftxScrapy/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pipelines" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.ftxspider" />
       </list>
@@ -89,7 +166,22 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@24860e75" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4036be3f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -110,6 +202,8 @@
       <workItem from="1577760595899" duration="191000" />
       <workItem from="1577787953830" duration="2048000" />
       <workItem from="1577929451358" duration="38000" />
+      <workItem from="1578922765376" duration="1081000" />
+      <workItem from="1578977109449" duration="4150000" />
     </task>
     <servers />
   </component>
@@ -117,37 +211,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="199" key="GridCell.Tab.0.bottom" timestamp="1577790260339">
-      <screen x="-240" y="-1050" width="1680" height="1050" />
+    <state x="-1372" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579005883715">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
     </state>
+    <state x="-1372" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579005883715" />
+    <state x="-1172" y="162" key="ExecutionTargetDialog" timestamp="1579006099499">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
+    </state>
+    <state x="-1172" y="162" key="ExecutionTargetDialog/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579006099499" />
+    <state width="1294" height="304" key="GridCell.Tab.0.bottom" timestamp="1579006294161">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579006294161" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900/-240.-1050.1680.1050@-240.-1050.1680.1050" timestamp="1577790260339" />
+    <state width="908" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877/-1882.-64.1882.1057@-1882.-64.1882.1057" timestamp="1579005218949" />
     <state width="1638" height="573" key="GridCell.Tab.0.bottom/0.23.1440.877/-240.-1027.1680.1027@-240.-1027.1680.1027" timestamp="1577760804566" />
     <state width="1398" height="427" key="GridCell.Tab.0.bottom/0.23.1440.877/-240.-1027.1680.1027@0.23.1440.877" timestamp="1577703099334" />
-    <state width="1638" height="199" key="GridCell.Tab.0.center" timestamp="1577790260338">
-      <screen x="-240" y="-1050" width="1680" height="1050" />
+    <state width="1294" height="304" key="GridCell.Tab.0.center" timestamp="1579006294158">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
     </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579006294158" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.0.1440.900/-240.-1050.1680.1050@-240.-1050.1680.1050" timestamp="1577790260338" />
+    <state width="908" height="212" key="GridCell.Tab.0.center/0.23.1440.877/-1882.-64.1882.1057@-1882.-64.1882.1057" timestamp="1579005218947" />
     <state width="1638" height="573" key="GridCell.Tab.0.center/0.23.1440.877/-240.-1027.1680.1027@-240.-1027.1680.1027" timestamp="1577760804565" />
     <state width="1398" height="427" key="GridCell.Tab.0.center/0.23.1440.877/-240.-1027.1680.1027@0.23.1440.877" timestamp="1577703099333" />
-    <state width="1638" height="199" key="GridCell.Tab.0.left" timestamp="1577790260337">
-      <screen x="-240" y="-1050" width="1680" height="1050" />
+    <state width="1294" height="304" key="GridCell.Tab.0.left" timestamp="1579006294156">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
     </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579006294156" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.0.1440.900/-240.-1050.1680.1050@-240.-1050.1680.1050" timestamp="1577790260337" />
+    <state width="908" height="212" key="GridCell.Tab.0.left/0.23.1440.877/-1882.-64.1882.1057@-1882.-64.1882.1057" timestamp="1579005218946" />
     <state width="1638" height="573" key="GridCell.Tab.0.left/0.23.1440.877/-240.-1027.1680.1027@-240.-1027.1680.1027" timestamp="1577760804565" />
     <state width="1398" height="427" key="GridCell.Tab.0.left/0.23.1440.877/-240.-1027.1680.1027@0.23.1440.877" timestamp="1577703099333" />
-    <state width="1638" height="199" key="GridCell.Tab.0.right" timestamp="1577790260339">
-      <screen x="-240" y="-1050" width="1680" height="1050" />
+    <state width="1294" height="304" key="GridCell.Tab.0.right" timestamp="1579006294160">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
     </state>
+    <state width="1294" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579006294160" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.0.1440.900/-240.-1050.1680.1050@-240.-1050.1680.1050" timestamp="1577790260339" />
+    <state width="908" height="212" key="GridCell.Tab.0.right/0.23.1440.877/-1882.-64.1882.1057@-1882.-64.1882.1057" timestamp="1579005218948" />
     <state width="1638" height="573" key="GridCell.Tab.0.right/0.23.1440.877/-240.-1027.1680.1027@-240.-1027.1680.1027" timestamp="1577760804565" />
     <state width="1398" height="427" key="GridCell.Tab.0.right/0.23.1440.877/-240.-1027.1680.1027@0.23.1440.877" timestamp="1577703099334" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1577702526873">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1579006011089">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
     </state>
+    <state width="239" height="457" key="HiddenNamespacesPopup/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579006011089" />
+    <state x="-1624" y="189" key="SettingsEditor" timestamp="1579005672066">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
+    </state>
+    <state x="-1624" y="189" key="SettingsEditor/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579005522530" />
+    <state x="-1624" y="189" key="SettingsEditor/0.23.1440.877/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579005672066" />
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877/-240.-1027.1680.1027@0.23.1440.877" timestamp="1577702526873" />
+    <state x="-1103" y="190" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1579005896219">
+      <screen x="-1920" y="-87" width="1920" height="1080" />
+    </state>
+    <state x="-1103" y="190" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1440.900/-1920.-87.1920.1080@-1920.-87.1920.1080" timestamp="1579005896219" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ftxScrapy$test.coverage" NAME="test Coverage Results" MODIFIED="1579005218934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ftxScrapy" />
     <SUITE FILE_PATH="coverage/ftxScrapy$ftxspider.coverage" NAME="ftxspider Coverage Results" MODIFIED="1577703059880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ftxScrapy/spiders" />
     <SUITE FILE_PATH="coverage/ftxScrapy$main.coverage" NAME="main Coverage Results" MODIFIED="1577788477769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ftxScrapy" />
+    <SUITE FILE_PATH="coverage/ftxScrapy$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1579005420794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ftxScrapy" />
   </component>
 </project>
